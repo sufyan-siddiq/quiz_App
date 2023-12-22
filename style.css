@@ -1,0 +1,83 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c9d8ca;
+}
+.quiz-card {
+  background-color: rgb(247, 248, 247);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 20px;
+  overflow: hidden;
+  width: 900px;
+  text-align: center;
+}
+
+.question {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.options {
+  padding: 20px;
+  text-align: left;
+}
+
+.option {
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.scored {
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  width: 250px;
+  background-color: white;
+}
+
+.scored-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 10px;
+  transition: background-color 0.3s;
+}
+
+.scored-button:hover {
+  background-color: #45a049;
+}
+
+.scored-message {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
